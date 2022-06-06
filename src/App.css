@@ -13,6 +13,12 @@
     color: white;
 }
 
+.projectsTag:hover, .contactTag:hover {
+    animation: largeFont 1s 1;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
 .navBar {
     display: flex;
     justify-content: flex-end;
@@ -94,6 +100,11 @@
 @keyframes bounce {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+@keyframes largeFont {
+    0% { font-size: inherit; }
+    100% { font-size: xx-large; }
 }
 
 @keyframes fade-in {
