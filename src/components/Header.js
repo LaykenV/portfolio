@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./chili.jpeg";
+import "./header.css";
 
 function Header() {
     return (

@@ -1,0 +1,114 @@
+.headerDiv {
+    height: 100vh;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.projectsTag:hover, .contactTag:hover {
+    animation: largeFont 1s 1;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8rem;
+    width: 90%;
+    height: 4rem;
+    font-size: x-large;
+    animation: fade-in 4s 1;
+}
+
+.nameAndPicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nameAndTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+    gap: 3rem;
+    color: black;
+}
+
+.myName {
+    font-size: 6rem;
+    width: 90%;
+    text-align: left;
+    animation: fade-in 2s 1;
+}
+
+.myTitle {
+    font-size: xx-large;
+    width: 90%;
+    text-align: left;
+    animation: slide-in 2s 1;
+}
+
+.pictureAndDescription {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.description {
+    font-size: x-large;
+    text-align: center;
+    width: 80%;
+}
+
+.scrollDivContainer {
+    padding: .5rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scrollDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: .2rem;
+    font-size: x-large;
+    animation: bounce .8s infinite alternate;
+}
+
+.scrollArrow {
+    transform: rotate(90deg);
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes largeFont {
+    0% { font-size: inherit; }
+    100% { font-size: xx-large; }
+}
+
+@keyframes fade-in {
+    0% {transform: translateY(20px); opacity: 0;}
+    50% {opacity: 0;}
+    100% { transform: translateY(0); opacity: 1;}
+}
+
+@keyframes slide-in {
+    0% {transform: translateX(-200px); opacity: 0;}
+    100% {transform: translateX(0); opacity: 1;}
+}

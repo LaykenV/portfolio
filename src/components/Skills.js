@@ -9,6 +9,7 @@ import linux from "../images/icon_linux.svg";
 import react from "../images/icon_react.svg";
 import webpack from "../images/icon_webpack.svg";
 import ts from "../images/icon_typescript.svg";
+import "./skills.css";
 
 
 function Skills () {
