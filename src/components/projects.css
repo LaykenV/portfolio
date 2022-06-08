@@ -1,0 +1,92 @@
+.projectsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    margin-top: 200px;
+}
+
+.projectsHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.featuredProjects {
+    font-size: 60px;
+}
+
+.dividerLine {
+    background-color: black;
+    height: 2px;
+    width: 50%;
+}
+
+.ferrariDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    gap: 100px;
+}
+
+.projectPhoto {
+    height: 100%;
+}
+
+.projectInfo {
+    width: 25%;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+}
+
+.projectHeader {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projectDescription {
+    font-size: large;
+    text-align: center;
+    color: rgb(51, 49, 49);
+}
+
+.projectButtons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.githubButton, .projectLinkButton {
+    height: 40px;
+    width: 40%;
+    background-color: inherit;
+    border: 1px solid rgb(235, 216, 110);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pokemonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+    gap: 100px;
+}
+
