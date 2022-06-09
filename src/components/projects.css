@@ -20,23 +20,21 @@
     font-size: 60px;
 }
 
-.dividerLine {
-    background-color: black;
-    height: 2px;
+.projectsDividerLine {
+    background-color: #f8efd4;
+    height: 1px;
     width: 50%;
 }
 
 .ferrariDiv {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 70%;
-    height: 400px;
-    gap: 100px;
+    width: 80%;
 }
 
 .projectPhoto {
-    height: 100%;
+    width: 25%;
 }
 
 .projectInfo {
@@ -61,7 +59,7 @@
 .projectDescription {
     font-size: large;
     text-align: center;
-    color: rgb(51, 49, 49);
+    color: #999;
 }
 
 .projectButtons {
@@ -76,17 +74,16 @@
     height: 40px;
     width: 40%;
     background-color: inherit;
-    border: 1px solid rgb(235, 216, 110);
+    border: 1px solid #f8efd4;
     border-radius: 5px;
     font-weight: bold;
+    color: #f8efd4;
 }
 
 .pokemonDiv {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 70%;
-    height: 400px;
-    gap: 100px;
+    width: 80%;
 }
 

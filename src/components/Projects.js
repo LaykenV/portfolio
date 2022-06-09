@@ -11,7 +11,7 @@ function Projects () {
         <div className="projectsDiv">
             <header className="projectsHeader">
                 <h2 className="featuredProjects">Featured Projects</h2>
-                <div className="dividerLine"></div>
+                <div className="projectsDividerLine"></div>
             </header>
             <div className="ferrariDiv">
                 <img className="projectPhoto" src={logo} alt="ferrari"></img>

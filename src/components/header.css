@@ -64,6 +64,10 @@
     gap: 3rem;
 }
 
+.pictureAndDescription > img {
+    width: 30%;
+}
+
 .description {
     font-size: x-large;
     text-align: center;

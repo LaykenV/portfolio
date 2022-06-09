@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 60px;
+}
+
+.contactDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.dividerLine {
+    width: 40%;
+    height: 2px;
+    background-color: #f8efd4;
+}
+
+.contactText {
+    width: 10%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.footerBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerSmallText {
+    color: #999;
+}
+
+.footerEmail {
+    color: #f8efd4;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.mediaLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mediaLink {
+    height: 60px;
+}
+
+.footerBottom {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.bottomSignature {
+    width: 14%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Cedarville Cursive", cursive;
+}
+
+.footerBottomLine {
+    width: 38%;
+    height: 2px;
+    background-color: #f8efd4;
+}

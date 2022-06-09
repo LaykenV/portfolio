@@ -28,7 +28,6 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
-    color: white;
     width: 100%;
 }
 
@@ -40,7 +39,7 @@
     gap: 20px;
     width: 300px;
     height: 400px;
-    background-color: rgb(26, 24, 24);
+    background-color: #000;
     border-radius: 10px;
     padding: 20px;
 
@@ -49,7 +48,7 @@
 .skillsBodyLeftHeader, .skillsBodyRightHeader {
     margin-top: 20px;
     font-size: x-large;
-    background-color: rgb(26, 24, 24);
+    background-color: #000;
     text-align: center;
 }
 
@@ -58,7 +57,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(26, 24, 24);
+    background-color: #000;
 }
 
 .skillItem {
@@ -70,7 +69,7 @@
     width: 50%;
     height: 100px;
     font-size: large;
-    background-color: rgb(26, 24, 24);
+    background-color: #000;
     text-align: center;
 }
 
