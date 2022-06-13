@@ -25,6 +25,20 @@ function Header() {
                     <div className="scrollArrow">ᐅ</div>
                 </div>
             </div>
+            
+                <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            
         </div>
     )
 }
