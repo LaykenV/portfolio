@@ -10,9 +10,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 100px;
     width: 70%;
     margin-top: 200px;
+}
+
+.skillsAndLine {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skillsDividerLine {
+    height: 2px;
+    background-color: #f8efd4;
+    width: 50%;
 }
 
 .skillsHeaderLeft {
@@ -21,6 +37,7 @@
 
 .skillsHeaderRight {
     font-size: xx-large;
+    text-align: center;
 }
 
 .skillsBody {
@@ -81,4 +98,22 @@
 
 .skillItem > span {
     background-color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .skillsHeader {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .skillsDiv {
+        gap: 3rem;
+    }
+
+    .skillsBody {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }

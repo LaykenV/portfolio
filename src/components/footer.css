@@ -79,3 +79,40 @@
     height: 2px;
     background-color: #f8efd4;
 }
+
+@media screen and (max-width:800px) {
+    .footerDiv {
+        margin-top: 4rem;
+    }
+
+    .contactDiv {
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .contactText {
+        width: fit-content;
+        font-size: 2rem;
+    }
+
+    .dividerLine {
+        flex-grow: 1;
+        width: fit-content;
+    }
+
+    .footerBottom {
+        gap: 1rem;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .footerBottomLine {
+        flex-grow: 1;
+        width: fit-content;
+    }
+
+    .bottomSignature {
+        width: fit-content;
+        font-size: 2rem;
+    }
+}

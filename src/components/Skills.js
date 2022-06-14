@@ -16,7 +16,10 @@ function Skills () {
     return (
         <div className="skillsDiv">
             <header className="skillsHeader">
-                <div className="skillsHeaderLeft">Skills</div>
+                <div className="skillsAndLine">
+                    <div className="skillsHeaderLeft">Skills</div>
+                    <div className="skillsDividerLine"></div>
+                </div>
                 <div className="skillsHeaderRight">Experienced in building modern web applications and reusable user interface components using React.js, Javascript (ES6), Typescript, HTML5, and CSS3.</div>
             </header>
             <div className="skillsBody">

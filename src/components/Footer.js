@@ -1,11 +1,13 @@
 import React from "react";
+import githubLogo from "../images/icon_githubWhite.svg";
+import linkedinLogo from "../images/icon_linkedinColor.svg";
 import logo from "./chili.jpeg";
 import "./footer.css";
 
 
-function Footer() {
+function Footer({refProp}) {
     return (
-        <div className="footerDiv">
+        <div className="footerDiv" ref={refProp}>
             <div className="contactDiv">
                 <div className="dividerLine"></div>
                 <div className="contactText">Contact</div>
@@ -17,9 +19,8 @@ function Footer() {
                 <p className="footerOr">OR</p>
                 <p className="footerSmallText">Reach me through social media:</p>
                 <div className="mediaLinks">
-                    <img className="mediaLink" src={logo} alt="github"></img>
-                    <img className="mediaLink" src={logo} alt="indeed"></img>
-                    <img className="mediaLink" src={logo} alt="github"></img>
+                    <img className="mediaLink" src={githubLogo} alt="github"></img>
+                    <img className="mediaLink" src={linkedinLogo} alt="indeed"></img>
                 </div>
             </div>
             <div className="footerBottom">

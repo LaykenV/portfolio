@@ -8,10 +8,30 @@
     color: #f8efd4;
 }
 
-.projectsTag:hover, .contactTag:hover {
+.projectsTag:hover, .contactTag:hover, .resumeTag:hover {
     animation: largeFont 1s 1;
     animation-fill-mode: forwards;
     cursor: pointer;
+}
+
+.resumeTag::before {
+    content: "Resume";
+}
+
+.resumeTag:hover::before {
+    content: none;
+}
+
+.resumeTag:hover::after {
+    content: "View in Browser";
+}
+
+.resumeTag:hover {
+    width: fit-content;
+}
+
+.projectsTag, .contactTag, .resumeTag {
+    width: 10%;
 }
 
 .navBar {
@@ -21,8 +41,9 @@
     gap: 8rem;
     width: 90%;
     height: 4rem;
-    font-size: x-large;
+    font-size: 1.5rem;
     animation: fade-in 4s 1;
+    z-index: 2;
 }
 
 .nameAndPicture {
@@ -48,7 +69,7 @@
 }
 
 .myTitle {
-    font-size: xx-large;
+    font-size: 2rem;
     width: 90%;
     text-align: left;
     animation: slide-in 2s 1;
@@ -60,15 +81,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .pictureAndDescription > img {
-    width: 30%;
+    width: 40%;
+    z-index: 2;
+    border-radius: 10%;
 }
 
 .description {
-    font-size: x-large;
+    font-size: 1.5rem;
     text-align: center;
     width: 80%;
 }
@@ -110,7 +133,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #f8efd4;
+    background: #999;
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
@@ -216,7 +239,7 @@
 
 @keyframes largeFont {
     0% { font-size: inherit; }
-    100% { font-size: xx-large; }
+    100% { font-size: 2rem; }
 }
 
 @keyframes fade-in {
@@ -228,4 +251,49 @@
 @keyframes slide-in {
     0% {transform: translateX(-200px); opacity: 0;}
     100% {transform: translateX(0); opacity: 1;}
+}
+
+@media screen and (max-width: 800px) {
+    .nameAndPicture {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .navBar {
+        gap: 1rem;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .navBar > div {
+        width: fit-content;
+    }
+
+    .nameAndTitle {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .myName {
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .myTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .pictureAndDescription {
+        width: 100%;
+    }
 }

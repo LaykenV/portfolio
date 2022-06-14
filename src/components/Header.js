@@ -1,13 +1,25 @@
 import React from "react";
-import logo from "./chili.jpeg";
+import selfie from "../images/IMG_2253.jpg";
 import "./header.css";
 
-function Header() {
+function Header({refProp, myContactRef}) {
+    const scrollToProjects = () => {
+        console.log(refProp);
+        refProp.current.scrollIntoView({ behavior: "smooth"});
+    }
+
+    const scrollToContact = () => {
+        console.log(myContactRef);
+        myContactRef.current.scrollIntoView({ behavior: "smooth"});
+    }
+
+
     return (
         <div className="headerDiv">
             <nav className="navBar">
-                <div className="projectsTag">Projects</div>
-                <div className="contactTag">Contact</div>
+                <div className="resumeTag"></div>
+                <div className="projectsTag" onClick={scrollToProjects}>Projects</div>
+                <div className="contactTag" onClick={scrollToContact}>Contact</div>
             </nav>
             <div className="nameAndPicture">
                 <div className="nameAndTitle">
@@ -15,7 +27,7 @@ function Header() {
                     <h2 className="myTitle">FRONT END DEVELOPER</h2>
                 </div>
                 <div className="pictureAndDescription">
-                    <img src={logo} alt="selfie"></img>
+                    <img src={selfie} alt="selfie"></img>
                     <p className="description">I am a self taught web developer who loves to create and design responsive websites</p>
                 </div>
             </div>

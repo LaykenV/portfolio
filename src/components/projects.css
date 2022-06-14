@@ -87,3 +87,35 @@
     width: 80%;
 }
 
+@media screen and (max-width: 800px) {
+    .projectsDiv {
+        gap: 4rem;
+        margin-top: 4rem;
+    }
+
+    .featuredProjects {
+        font-size: 2.2rem;
+    }
+
+    .projectsDividerLine {
+        width: 90%;
+    }
+
+    .ferrariDiv {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .projectPhoto {
+        width: 50%;;
+    }
+
+    .projectInfo {
+        width: 90%;
+    }
+
+    .pokemonDiv {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}

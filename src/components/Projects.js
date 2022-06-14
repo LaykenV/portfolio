@@ -3,12 +3,12 @@ import logo from "./chili.jpeg";
 import "./projects.css";
 
 
-function Projects () {
+function Projects (props) {
     const openTab = (url) => {
         window.open(url, "_blank");
     }
     return (
-        <div className="projectsDiv">
+        <div className="projectsDiv" ref={props.refProp}>
             <header className="projectsHeader">
                 <h2 className="featuredProjects">Featured Projects</h2>
                 <div className="projectsDividerLine"></div>
