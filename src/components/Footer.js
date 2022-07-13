@@ -6,6 +6,9 @@ import "./footer.css";
 
 
 function Footer({refProp}) {
+    const openTab = (url) => {
+        window.open(url);
+    }
     return (
         <div className="footerDiv" ref={refProp}>
             <div className="contactDiv">
@@ -19,8 +22,8 @@ function Footer({refProp}) {
                 <p className="footerOr">OR</p>
                 <p className="footerSmallText">Reach me through social media:</p>
                 <div className="mediaLinks">
-                    <img className="mediaLink" src={githubLogo} alt="github"></img>
-                    <img className="mediaLink" src={linkedinLogo} alt="indeed"></img>
+                    <img className="mediaLink" src={githubLogo} alt="github" onClick={() => { openTab("https://github.com/LaykenV") }}></img>
+                    <img className="mediaLink" src={linkedinLogo} alt="indeed" onClick={() => { openTab("https://www.linkedin.com/in/layken-varholdt-a78687230/") }}></img>
                 </div>
             </div>
             <div className="footerBottom">

@@ -1,5 +1,6 @@
 import React from "react";
 import selfie from "../images/IMG_2253.jpg";
+import resume from "../Layken_Varholdt_Resume.pdf";
 import "./header.css";
 
 function Header({refProp, myContactRef}) {
@@ -13,11 +14,16 @@ function Header({refProp, myContactRef}) {
         myContactRef.current.scrollIntoView({ behavior: "smooth"});
     }
 
+    const openTab = (url) => {
+        window.open(url, "_blank");
+        return false;
+    }
+
 
     return (
         <div className="headerDiv">
             <nav className="navBar">
-                <div className="resumeTag"></div>
+                <div className="resumeTag" onClick={() => { openTab({resume}) }}></div>
                 <div className="projectsTag" onClick={scrollToProjects}>Projects</div>
                 <div className="contactTag" onClick={scrollToContact}>Contact</div>
             </nav>

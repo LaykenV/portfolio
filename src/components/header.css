@@ -9,8 +9,6 @@
 }
 
 .projectsTag:hover, .contactTag:hover, .resumeTag:hover {
-    animation: largeFont 1s 1;
-    animation-fill-mode: forwards;
     cursor: pointer;
 }
 
@@ -237,11 +235,6 @@
     100% { transform: translateY(-10px); }
 }
 
-@keyframes largeFont {
-    0% { font-size: inherit; }
-    100% { font-size: 2rem; }
-}
-
 @keyframes fade-in {
     0% {transform: translateY(20px); opacity: 0;}
     50% {opacity: 0;}
@@ -253,7 +246,7 @@
     100% {transform: translateX(0); opacity: 1;}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     .nameAndPicture {
         flex-direction: column;
         gap: 3rem;
