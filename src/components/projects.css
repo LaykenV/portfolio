@@ -78,6 +78,7 @@
     border-radius: 5px;
     font-weight: bold;
     color: #f8efd4;
+    cursor: pointer;
 }
 
 .pokemonDiv {

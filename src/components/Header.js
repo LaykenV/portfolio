@@ -23,7 +23,7 @@ function Header({refProp, myContactRef}) {
     return (
         <div className="headerDiv">
             <nav className="navBar">
-                <div className="resumeTag" onClick={() => { openTab({resume}) }}></div>
+                <a className="resumeTag" target="_blank" href={resume}></a>
                 <div className="projectsTag" onClick={scrollToProjects}>Projects</div>
                 <div className="contactTag" onClick={scrollToContact}>Contact</div>
             </nav>

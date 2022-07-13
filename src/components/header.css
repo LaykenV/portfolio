@@ -8,6 +8,15 @@
     color: #f8efd4;
 }
 
+a {
+    text-decoration: none;
+    color: #f8efd4;
+}
+
+.resumeTag, .contactTag, .projectsTag {
+    text-align: center;
+}
+
 .projectsTag:hover, .contactTag:hover, .resumeTag:hover {
     cursor: pointer;
 }
