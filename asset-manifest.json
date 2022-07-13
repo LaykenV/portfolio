@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.34f173b9.css",
-    "main.js": "/portfolio/static/js/main.4f7f1b71.js",
+    "main.css": "/portfolio/static/css/main.cc31224d.css",
+    "main.js": "/portfolio/static/js/main.52d08b0c.js",
     "static/media/PBA_pic2.png": "/portfolio/static/media/PBA_pic2.e87bbe855ca646171edf.png",
     "static/media/Ferrari_Mock_pic1.png": "/portfolio/static/media/Ferrari_Mock_pic1.244c4cbfed237e06535d.png",
     "static/media/Ferrari_Mock_pic2.png": "/portfolio/static/media/Ferrari_Mock_pic2.c3af35235c75bfab4f8d.png",
@@ -21,11 +21,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/icon_html.svg": "/portfolio/static/media/icon_html.fd805eca293e78134241c0eadd177105.svg",
     "static/media/icon_css.svg": "/portfolio/static/media/icon_css.4f5d62a9fe47339d29f706f01aeec94c.svg",
-    "main.34f173b9.css.map": "/portfolio/static/css/main.34f173b9.css.map",
-    "main.4f7f1b71.js.map": "/portfolio/static/js/main.4f7f1b71.js.map"
+    "main.cc31224d.css.map": "/portfolio/static/css/main.cc31224d.css.map",
+    "main.52d08b0c.js.map": "/portfolio/static/js/main.52d08b0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.34f173b9.css",
-    "static/js/main.4f7f1b71.js"
+    "static/css/main.cc31224d.css",
+    "static/js/main.52d08b0c.js"
   ]
 }
