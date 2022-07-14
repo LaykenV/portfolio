@@ -33,10 +33,6 @@ a {
     content: "View in Browser";
 }
 
-.resumeTag:hover {
-    width: fit-content;
-}
-
 .projectsTag, .contactTag, .resumeTag {
     width: 10%;
 }
