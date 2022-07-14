@@ -268,8 +268,8 @@ a {
         width: 100%;
     }
 
-    .navBar > div {
-        width: fit-content;
+    .resumeTag, .projectsTag, .contactTag {
+        width: 25%;
     }
 
     .nameAndTitle {
