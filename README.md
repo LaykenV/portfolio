@@ -15,7 +15,7 @@ My Personal Portfolio to showcase information about myself, skills I posses, and
 
 ## Objectives
 
-The main motivation for this work was to design and deploy an application that properly showcased my skills and talents to potential employers.
+The main motivation for this work was to design and deploy an application that properly showcased my skills and talents to potential employers!
 
 ## Built with
 
