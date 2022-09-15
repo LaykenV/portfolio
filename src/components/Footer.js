@@ -33,6 +33,6 @@ function Footer({refProp}) {
             </div>
         </div>
     )
-}
+};
 
 export default Footer;
