@@ -17,7 +17,7 @@ function Header({refProp, myContactRef}) {
     const openTab = (url) => {
         window.open(url, "_blank");
         return false;
-    }
+    };
 
 
     return (
