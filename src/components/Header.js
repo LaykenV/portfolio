@@ -7,7 +7,7 @@ function Header({refProp, myContactRef}) {
     const scrollToProjects = () => {
         console.log(refProp);
         refProp.current.scrollIntoView({ behavior: "smooth"}) ;
-    }
+    };
 
     const scrollToContact = () => {
         console.log(myContactRef);
