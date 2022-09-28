@@ -12,7 +12,7 @@ function Header({refProp, myContactRef}) {
     const scrollToContact = () => {
         console.log(myContactRef);
         myContactRef.current.scrollIntoView({ behavior: "smooth"});
-    }
+    };
 
     const openTab = (url) => {
         window.open(url, "_blank");
