@@ -8,7 +8,7 @@ import "./footer.css";
 function Footer({refProp}) {
     const openTab = (url) => {
         window.open(url);
-    }
+    };
     return (
         <div className="footerDiv" ref={refProp}>
             <div className="contactDiv">
