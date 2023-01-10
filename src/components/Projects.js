@@ -43,6 +43,6 @@ function Projects (props) {
             </div>
         </div>
     )
-}
+};
 
 export default Projects;
