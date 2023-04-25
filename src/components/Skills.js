@@ -9,6 +9,18 @@ import linux from "../images/icon_linux.svg";
 import react from "../images/icon_react.svg";
 import webpack from "../images/icon_webpack.svg";
 import ts from "../images/icon_typescript.svg";
+import formik from "../images/icons8-google-forms.svg";
+import MUI from "../images/icons8-material-ui.svg";
+import AWS from "../images/icons8-amazon-web-services.svg";
+import scrum from "../images/icons8-scrum-64.png";
+import agile from "../images/icons8-agile-32.png";
+import jira from "../images/icons8-jira.svg";
+import styledComponents from "../images/icons8-styled-components-48.png";
+import axios from "../images/icons8-axis-alignment-48.png";
+import gitlab from "../images/icons8-gitlab.svg";
+import router from "../images/icons8-router-50.png";
+import storybook from "../images/icons8-storybook-64.png";
+import yup from "../images/icons8-do-not-tilt-30.png";
 import "./skills.css";
 
 
@@ -46,6 +58,51 @@ function Skills () {
                             <img src={ts} alt="typescript"></img>
                             <span>Typescript</span>
                         </div>
+                        <div className="skillItem">
+                            <img src={scrum} alt="scrum"></img>
+                            <span>scrum</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={agile} alt="agile"></img>
+                            <span>agile</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="skillsBodyCenter">
+                    <div className="skillsBodyLeftHeader">React Libraries</div>
+                    <div className="skillsBodyLeftItems">
+                        <div className="skillItem">
+                            <img src={formik} alt="formik"></img>
+                            <span>Formik</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={yup} alt="yup"></img>
+                            <span>Yup</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={AWS} alt="aws amplify"></img>
+                            <span>AWS Amplify</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={styledComponents} alt="styled components"></img>
+                            <span>Styled Component</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={axios} alt="axios"></img>
+                            <span>Axios</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={router} alt="react router dom"></img>
+                            <span>React Router Dom</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={storybook} alt="storybook"></img>
+                            <span>Storybook</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={AWS} alt="AWS Cognito"></img>
+                            <span>Amazon Cognito</span>
+                        </div>
                     </div>
                 </div>
                 <div className="skillsBodyRight">
@@ -70,6 +127,14 @@ function Skills () {
                         <div className="skillItem">
                             <img src={linux} alt="linux"></img>
                             <span>Linux</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={jira} alt="Jira"></img>
+                            <span>Jira</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={gitlab} alt="Gitlab"></img>
+                            <span>Gitlab</span>
                         </div>
                     </div>
                 </div>

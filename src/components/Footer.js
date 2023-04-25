@@ -18,7 +18,7 @@ function Footer({refProp}) {
             </div>
             <div className="footerBody">
                 <p className="footerSmallText">Write me an e-mail at:</p>
-                <p className="footerEmail">laykenv@gmail.com</p>
+                <p className="footerEmail">Laykenv@gmail.com</p>
                 <p className="footerOr">OR</p>
                 <p className="footerSmallText">Reach me through social media:</p>
                 <div className="mediaLinks">

@@ -4,6 +4,8 @@ import pbaPic1 from "../images/Ferrari_Mock_pic1.png";
 import pbaPic2 from "../images/Ferrari_Mock_pic2.png";
 import fmPic1 from "../images/PBA_pic1.png";
 import fmPic2 from "../images/PBA_pic2.png";
+import sparq1 from "../images/App Home Screen .png";
+import sparq2 from "../images/App Profile Screen.png";
 import "./projects.css";
 
 
@@ -17,6 +19,18 @@ function Projects (props) {
                 <h2 className="featuredProjects">Featured Projects</h2>
                 <div className="projectsDividerLine"></div>
             </header>
+            <div className="pokemonDiv">
+                <div className="projectInfo">
+                    <div className="projectHeader">Sparq Scheduling App</div>
+                    <div className="projectDescription">A scheduling app I helped create while part of an internship at Sparq. I utilized scrum and agile methodologies while working on a team of 4 developers, a Product Owner, a Scrum Master, a QA tester, as well as a board of stakeholders that we demo'd weekly to in a presentation. This app is built with in React and utilizes every library I have mentioned in the graphic above.</div>
+                    <div className="projectButtons">
+                        <button className="githubButton" onClick={() => { openTab("https://github.com/LaykenV/sparqSchedulingApp") }}>Review The Code</button>
+                        <button className="projectLinkButton" onClick={() => { openTab("https://laykenv.github.io/sparqSchedulingApp") }}>See it Live</button>
+                    </div>
+                </div>
+                <img className="sparqProjectPhoto" src={sparq1} alt="ferrari"></img>
+                <img className="sparqProjectPhoto" src={sparq2} alt="ferrari"></img>
+            </div>
             <div className="ferrariDiv">
                 <img className="projectPhoto" src={fmPic1} alt="ferrari"></img>
                 <img className="projectPhoto" src={fmPic2} alt="ferrari"></img>
