@@ -112,7 +112,11 @@
     }
 
     .projectPhoto {
-        width: 70%;;
+        width: 100%;
+    }
+
+    .sparqProjectPhoto {
+        width: 100%;
     }
 
     .projectInfo {
