@@ -4,8 +4,8 @@ import pbaPic1 from "../images/Ferrari_Mock_pic1.png";
 import pbaPic2 from "../images/Ferrari_Mock_pic2.png";
 import fmPic1 from "../images/PBA_pic1.png";
 import fmPic2 from "../images/PBA_pic2.png";
-import sparq1 from "../images/App Home Screen .png";
-import sparq2 from "../images/App Profile Screen.png";
+import sparq1 from "../images/sparq 1.png";
+import sparq2 from "../images/sparq 2.png";
 import "./projects.css";
 
 

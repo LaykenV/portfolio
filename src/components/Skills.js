@@ -60,11 +60,11 @@ function Skills () {
                         </div>
                         <div className="skillItem">
                             <img src={scrum} alt="scrum"></img>
-                            <span>scrum</span>
+                            <span>Scrum</span>
                         </div>
                         <div className="skillItem">
                             <img src={agile} alt="agile"></img>
-                            <span>agile</span>
+                            <span>Agile</span>
                         </div>
                     </div>
                 </div>
@@ -100,8 +100,8 @@ function Skills () {
                             <span>Storybook</span>
                         </div>
                         <div className="skillItem">
-                            <img src={AWS} alt="AWS Cognito"></img>
-                            <span>Amazon Cognito</span>
+                            <img src={MUI} alt="Material UI"></img>
+                            <span>Material UI</span>
                         </div>
                     </div>
                 </div>
@@ -135,6 +135,10 @@ function Skills () {
                         <div className="skillItem">
                             <img src={gitlab} alt="Gitlab"></img>
                             <span>Gitlab</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={AWS} alt="AWS Cognito"></img>
+                            <span>Amazon Cognito</span>
                         </div>
                     </div>
                 </div>
