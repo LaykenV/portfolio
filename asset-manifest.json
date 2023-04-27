@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c956400f.css",
-    "main.js": "/portfolio/static/js/main.fd36e909.js",
+    "main.css": "/portfolio/static/css/main.e1b7ee3e.css",
+    "main.js": "/portfolio/static/js/main.04dfe41e.js",
     "static/media/PBA_pic2.png": "/portfolio/static/media/PBA_pic2.e87bbe855ca646171edf.png",
     "static/media/Ferrari_Mock_pic1.png": "/portfolio/static/media/Ferrari_Mock_pic1.244c4cbfed237e06535d.png",
     "static/media/Ferrari_Mock_pic2.png": "/portfolio/static/media/Ferrari_Mock_pic2.c3af35235c75bfab4f8d.png",
-    "static/media/App Home Screen .png": "/portfolio/static/media/App Home Screen .37e3a012b2085c4c21d9.png",
+    "static/media/sparq 1.png": "/portfolio/static/media/sparq 1.16c1040f3e201b766162.png",
     "static/media/PBA_pic1.png": "/portfolio/static/media/PBA_pic1.157397e310723fd15171.png",
-    "static/media/App Profile Screen.png": "/portfolio/static/media/App Profile Screen.625b31c491c5450dcf7b.png",
+    "static/media/sparq 2.png": "/portfolio/static/media/sparq 2.18d1687edc6b2e41b28f.png",
     "static/media/IMG_2253.jpg": "/portfolio/static/media/IMG_2253.23c54075a676210a7317.jpg",
     "static/media/Layken_Varholdt_Resume.pdf": "/portfolio/static/media/Layken_Varholdt_Resume.bdedd024d661ce36f150.pdf",
     "static/media/icon_linux.svg": "/portfolio/static/media/icon_linux.2a178dc7bef9310773109051c886d55e.svg",
@@ -28,11 +28,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/icon_html.svg": "/portfolio/static/media/icon_html.05cd250cb455d0c66b782382680cd882.svg",
     "static/media/icon_css.svg": "/portfolio/static/media/icon_css.3006914a8548d10a86e4cb94ab967de9.svg",
-    "main.c956400f.css.map": "/portfolio/static/css/main.c956400f.css.map",
-    "main.fd36e909.js.map": "/portfolio/static/js/main.fd36e909.js.map"
+    "main.e1b7ee3e.css.map": "/portfolio/static/css/main.e1b7ee3e.css.map",
+    "main.04dfe41e.js.map": "/portfolio/static/js/main.04dfe41e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c956400f.css",
-    "static/js/main.fd36e909.js"
+    "static/css/main.e1b7ee3e.css",
+    "static/js/main.04dfe41e.js"
   ]
 }
