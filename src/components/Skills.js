@@ -21,6 +21,7 @@ import gitlab from "../images/icons8-gitlab.svg";
 import router from "../images/icons8-router-50.png";
 import storybook from "../images/icons8-storybook-64.png";
 import yup from "../images/icons8-do-not-tilt-30.png";
+import vite from "../images/vite-svgrepo-com.svg";
 import "./skills.css";
 
 
@@ -65,6 +66,10 @@ function Skills () {
                         <div className="skillItem">
                             <img src={agile} alt="agile"></img>
                             <span>Agile</span>
+                        </div>
+                        <div className="skillItem">
+                            <img src={vite} alt="vite"></img>
+                            <span>Vite</span>
                         </div>
                     </div>
                 </div>
