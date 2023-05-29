@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e1b7ee3e.css",
-    "main.js": "/portfolio/static/js/main.edf682ac.js",
-    "static/media/PBA_pic2.png": "/portfolio/static/media/PBA_pic2.e87bbe855ca646171edf.png",
-    "static/media/Ferrari_Mock_pic1.png": "/portfolio/static/media/Ferrari_Mock_pic1.244c4cbfed237e06535d.png",
-    "static/media/Ferrari_Mock_pic2.png": "/portfolio/static/media/Ferrari_Mock_pic2.c3af35235c75bfab4f8d.png",
-    "static/media/sparq 1.png": "/portfolio/static/media/sparq 1.16c1040f3e201b766162.png",
-    "static/media/PBA_pic1.png": "/portfolio/static/media/PBA_pic1.157397e310723fd15171.png",
-    "static/media/sparq 2.png": "/portfolio/static/media/sparq 2.18d1687edc6b2e41b28f.png",
+    "main.js": "/portfolio/static/js/main.52f07c70.js",
+    "static/media/PBA_pic2.png": "/portfolio/static/media/PBA_pic2.4a0574b723f1a43dcb5f.png",
+    "static/media/PBA_pic1.png": "/portfolio/static/media/PBA_pic1.17edc5057b683ff6eff6.png",
+    "static/media/sparq 1.png": "/portfolio/static/media/sparq 1.d48574621b1405ba68a6.png",
+    "static/media/sparq 2.png": "/portfolio/static/media/sparq 2.b573c25230898b65fcea.png",
+    "static/media/Layken_Varholdt_Resume.pdf": "/portfolio/static/media/Layken_Varholdt_Resume.7cdbe9c6953523db348c.pdf",
     "static/media/IMG_2253.jpg": "/portfolio/static/media/IMG_2253.23c54075a676210a7317.jpg",
-    "static/media/Layken_Varholdt_Resume.pdf": "/portfolio/static/media/Layken_Varholdt_Resume.e7682e06354c15faf377.pdf",
+    "static/media/IWAI_screenshot2.png": "/portfolio/static/media/IWAI_screenshot2.c6a19da786340094a3b4.png",
+    "static/media/IWAI_screenshot1.png": "/portfolio/static/media/IWAI_screenshot1.6c03636c9b2323c06ea5.png",
     "static/media/icon_linux.svg": "/portfolio/static/media/icon_linux.2a178dc7bef9310773109051c886d55e.svg",
     "static/media/icon_jest.svg": "/portfolio/static/media/icon_jest.391235bc4aeef8164ce0a0279832e35e.svg",
     "static/media/icon_react.svg": "/portfolio/static/media/icon_react.a386c9fa98bb3a84eeedf8b39493cc83.svg",
@@ -18,6 +18,7 @@
     "static/media/icon_typescript.svg": "/portfolio/static/media/icon_typescript.f7bba273c242b80f3159246ca192cc64.svg",
     "static/media/icon_git.svg": "/portfolio/static/media/icon_git.4aaeba811cb09525a94c5b5e4cb2f46a.svg",
     "static/media/icons8-google-forms.svg": "/portfolio/static/media/icons8-google-forms.f29313f25e319b8dd7ae09a04b70f6f6.svg",
+    "static/media/vite-svgrepo-com.svg": "/portfolio/static/media/vite-svgrepo-com.cd975211c6033192c106943d424a0f85.svg",
     "static/media/icons8-jira.svg": "/portfolio/static/media/icons8-jira.7fabd756cfd87f039369a1c51f13c7d0.svg",
     "static/media/icon_javascript.svg": "/portfolio/static/media/icon_javascript.9049cb56e70392bf52005fe9fe3636a7.svg",
     "static/media/icon_github.svg": "/portfolio/static/media/icon_github.60c1cb56285106f553115ec68970a96d.svg",
@@ -29,10 +30,10 @@
     "static/media/icon_html.svg": "/portfolio/static/media/icon_html.05cd250cb455d0c66b782382680cd882.svg",
     "static/media/icon_css.svg": "/portfolio/static/media/icon_css.3006914a8548d10a86e4cb94ab967de9.svg",
     "main.e1b7ee3e.css.map": "/portfolio/static/css/main.e1b7ee3e.css.map",
-    "main.edf682ac.js.map": "/portfolio/static/js/main.edf682ac.js.map"
+    "main.52f07c70.js.map": "/portfolio/static/js/main.52f07c70.js.map"
   },
   "entrypoints": [
     "static/css/main.e1b7ee3e.css",
-    "static/js/main.edf682ac.js"
+    "static/js/main.52f07c70.js"
   ]
 }
